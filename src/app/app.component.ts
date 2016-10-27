@@ -18,12 +18,11 @@ export class MyApp {
   constructor(platform: Platform) {
 
     const config = {
-      apiKey: "AIzaSyALKfevapBOYK202f6k5mPPfMrT1MHDv5A",
-      authDomain: "bill-tracker-e5746.firebaseapp.com",
-      databaseURL: "https://bill-tracker-e5746.firebaseio.com",
-      storageBucket: "bill-tracker-e5746.appspot.com",
-      messagingSenderId: "508248799540"
-    };
+      apiKey: "AIzaSyBioiHZS_cpZT1IqBuskIjszs2RqqvwG-4",
+      authDomain: "activemapper.firebaseapp.com",
+      databaseURL: "https://activemapper.firebaseio.com",
+      storageBucket: "activemapper.appspot.com",
+      messagingSenderId: "928318092443"    };
     firebase.initializeApp(config);
 
     firebase.auth().onAuthStateChanged( user => {

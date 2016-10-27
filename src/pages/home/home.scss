@@ -1,5 +1,20 @@
+ion-app._gmaps_cdv_ .nav-decor{
+  background-color: transparent !important;
+}
+
 page-home {
   button {
     margin-top: 32px;
   }
+  #map {
+        height: 75%;
+    }
+}
+
+home-page {
+ 
+    #map {
+        height: 75%;
+    }
+ 
 }
